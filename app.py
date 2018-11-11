@@ -72,6 +72,7 @@ def update_category(category_id):
         {'category_name': request.form['category_name']})
     return redirect(url_for('get_categories'))
 
+
   
 
 @app.route('/delete_category/<category_id>')  

@@ -1,53 +1,42 @@
+# Fine Dining Recipes
 
- # datacentric project
-Python, MongoDb, mLab, Flask, Materialize
+A web application that allows users to store and easily access cooking recipes.
 
-Developer: vmgwembere
+The backend code and frontend form to allowS users to add new recipes to the site.
 
-App available at: https://fine-dine-app-new.herokuapp.com/
+The backend code  groupS and summariseS the recipes on the site, based on their attributes such as cuisine, country of origin, allergens, ingredients, etc. and a frontend page to show this summary, and make the categories clickable to drill down into a filtered view based on that category. This frontend page can be as simple or as complex as you’d like; you can use a Python library such as matplotlib, or a JS library such as d3/dc (that you learned about if you took the frontend modules) for visualisation.
+
+The backend code is used to retrieve a list of recipes, filtered based on various criteria.
+
+There is a detailed view for each recipes, that would just show all attributes for that recipe, and the full preparation instructions.
+ 
+## UX
 
 
-# ux 
+Bright and bold colours 
 
+## Features
 Navbar
 
-Home
-New task
-Manage categories
-Home page
+Home New task Manage categories Home page
 
-List of tasks (each with a task name, due date, description)
-Title: Tasks
-Buttons: edit, mark complete, add new task
-Add Task page
+List of tasks (each with a task name, due date, description) Title: Tasks Buttons: edit, mark complete, add new task Add Task page
 
-Inputs: category, name, description, due date (calendar), is urgent
-Submit: add task
-Edit Task page
+Inputs: category, name, description, due date (calendar), is urgent Submit: add task Edit Task page
 
-Title: Edit Task
-Inputs: category, name, description, due date (calendar), is urgent
-Submit: update task
-Categories page
+Title: Edit Task Inputs: category, name, description, due date (calendar), has allergens Submit: update task Categories page
 
-Title: Categories
-List of categories (each with category name)
-Buttons: delete, edit, new category
-Edit Category page
+Title: Categories List of categories (each with category name) Buttons: delete, edit, new category Edit Category page
 
-Title: Edit Category
-Inputs: name
-Buttons: update category
-New Category page
+Title: Edit Category Inputs: name Buttons: update category New Category page
 
-Title: New Category
-Inputs: name
-Buttons: add category
+Title: New Category Inputs: name Buttons: add category 
+ 
 
-
-## Technologies and Dependencies
-HTML5
-CSS3
+- 
+## Technologies Used
+HTML5 
+CSS3 
 Materialize
 Python3
 pip3
@@ -56,30 +45,44 @@ flask-pymongo
 MongoDB
 mLab
 Heroku
-4 Workflow
 Create new database on mlab.com
 
-## Heroku Deployment
+
+## Testing
+
+
+
+
+## Deployment
+
 Create a new app on heroku.com
 
 Login to heroku with email and password
 
-$ heroku login
-Add heroku remote
+heroku login Add heroku remote
 
-$ heroku git:remote 
-Add requirements.txt
+heroku git:remote Add requirements.txt
 
-$ sudo pip3 freeze --local > requirements.txt
-Add Procfile (this tells heroku what to do with the project)
+sudo pip3 freeze --local > requirements.txt Add Procfile (this tells heroku what to do with the project)
 
-$ echo web: python run.py > Procfile
-Git commit and push to heroku remote
+echo web: python run.py > Procfile Git commit and push to heroku remote
 
-$ git add Procfile
-$ git ci -m 'Add requirements.txt and Procfile'
-$ git push -u heroku master
-Set up dynos
+git add Procfile $ git ci -m 'Add requirements.txt and Procfile' $ git push -u heroku master Set up dynos
 
-$ heroku ps:scale web=1
-Setup config variables on heroku dashboard
+heroku ps:scale web=1 Setup config variables on heroku dashboard
+
+## Credits
+
+Code-Institute-Solutions/flask-mongo-task-manager 
+
+### Content
+- 
+
+### Media
+- The photos used in this site were obtained from pixabay
+
+### Acknowledgements
+
+- I received inspiration for this project from code institute mini project
+
+

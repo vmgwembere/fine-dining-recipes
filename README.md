@@ -36,13 +36,21 @@ Title: New Category Inputs: name Buttons: add category
 - 
 ## Technologies Used
 1.HTML5 
+
 2.CSS3 
+
 3.Materialize
+
 4.Python3
+
 5.Flask
+
 6.flask-pymongo
+
 7.MongoDB
+
 8.mLab
+
 9.Heroku
 
 

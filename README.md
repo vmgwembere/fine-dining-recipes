@@ -2,9 +2,9 @@
 
 A web application that allows users to store and easily access cooking recipes.
 
-The backend code and frontend form to allowS users to add new recipes to the site.
+The backend code and frontend form to allows users to add new recipes to the site.
 
-The backend code  groups and summarises the recipes on the site, based on their attributes such as cuisine, country of origin, allergens, ingredients, etc. and a frontend page to show this summary, and make the categories clickable to drill down into a filtered view based on that category. This frontend page can be as simple or as complex as you’d like; you can use a Python library such as matplotlib, or a JS library such as d3/dc (that you learned about if you took the frontend modules) for visualisation.
+The backend code  groups and summarises the recipes on the site, based on their attributes such as cuisine, country of origin, allergens, ingredients, etc. and a frontend page to show this summary, and make the categories clickable to drill down into a filtered view based on that category. 
 
 The backend code is used to retrieve a list of recipes, filtered based on various criteria.
 

@@ -4,7 +4,7 @@ A web application that allows users to store and easily access cooking recipes.
 
 The backend code and frontend form to allowS users to add new recipes to the site.
 
-The backend code  groupS and summariseS the recipes on the site, based on their attributes such as cuisine, country of origin, allergens, ingredients, etc. and a frontend page to show this summary, and make the categories clickable to drill down into a filtered view based on that category. This frontend page can be as simple or as complex as you’d like; you can use a Python library such as matplotlib, or a JS library such as d3/dc (that you learned about if you took the frontend modules) for visualisation.
+The backend code  groups and summarises the recipes on the site, based on their attributes such as cuisine, country of origin, allergens, ingredients, etc. and a frontend page to show this summary, and make the categories clickable to drill down into a filtered view based on that category. This frontend page can be as simple or as complex as you’d like; you can use a Python library such as matplotlib, or a JS library such as d3/dc (that you learned about if you took the frontend modules) for visualisation.
 
 The backend code is used to retrieve a list of recipes, filtered based on various criteria.
 
@@ -13,12 +13,12 @@ There is a detailed view for each recipes, that would just show all attributes f
 ## UX
 
 
-Bright and bold colours 
+Bright and bold colours aim is to standout and be inviting to website users like the recipes.
 
 ## Features
 Navbar
 
-Home New task Manage categories Home page
+Home Newtask Managecategories Home 
 
 List of tasks (each with a task name, due date, description) Title: Tasks Buttons: edit, mark complete, add new task Add Task page
 
@@ -35,22 +35,21 @@ Title: New Category Inputs: name Buttons: add category
 
 - 
 ## Technologies Used
-HTML5 
-CSS3 
-Materialize
-Python3
-pip3
-Flask
-flask-pymongo
-MongoDB
-mLab
-Heroku
-Create new database on mlab.com
+1.HTML5 
+2.CSS3 
+3.Materialize
+4.Python3
+5.Flask
+6.flask-pymongo
+7.MongoDB
+8.mLab
+9.Heroku
+
 
 
 ## Testing
 
-
+Manual testing to see if database was correctly connected by creating and deleting categories on the backend and through the site.
 
 
 ## Deployment
@@ -75,8 +74,6 @@ heroku ps:scale web=1 Setup config variables on heroku dashboard
 
 Code-Institute-Solutions/flask-mongo-task-manager 
 
-### Content
-- 
 
 ### Media
 - The photos used in this site were obtained from pixabay

@@ -1,7 +1,8 @@
-{% extends 'base.html' %} {% block content %}
-<h3>Add Task</h3>
+{% extends 'base.html' %}
+{% block content %}
+<h3>Add Recipe</h3>
 <div class="row">
-    <form action="{{ url_for('insert_task') }}" method="POST"  class="col s12">
+    <form action="{{ url_for('insert_recipe') }}" method="POST"  class="col s12">
         <div class="row">
             <div class="row">
                 <div class="input-field col s12">
@@ -24,14 +25,14 @@
           </div>
             <div class="input-field col s12">
                 <i class="material-icons prefix">assignment</i>
-                <input id="task_name" name="task_name" type="text">
+                <input id="recipe_name" name="recipe_name" type="text">
                 <label for="icon_prefix">Recipe Name</label>
             </div>
         </div>
         <div class="row">
             <div class="input-field col s12">
                 <i class="material-icons prefix">subject</i>
-                <textarea name="task_description" id="task_description" class="materialize-textarea"></textarea>
+                <textarea name="recipe_description" id="recipe_description" class="materialize-textarea"></textarea>
                 <label for="icon_telephone">Recipe Description</label>
             </div>
         </div>
@@ -52,7 +53,7 @@
             </div>
         </div>
         <div class="row">
-            <button class="btn waves-effect waves-light" type="submit" name="action">Add Task
+            <button class="btn waves-effect waves-light" type="submit" name="action">Add Recipe
                 <i class="material-icons right">Recipe_add</i>
              </button>
         </div>

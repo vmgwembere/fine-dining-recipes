@@ -3,15 +3,22 @@ from flask import Flask, render_template, redirect, request, url_for
 from flask_pymongo import PyMongo
 from bson.objectid import ObjectId
 
+<<<<<<< HEAD
 
 
 app = Flask(__name__)
 app.config["MONGO_DBNAME"] = 'cookbook'
 app.config["MONGO_URI"] = 'mongodb://admin:1veronica@ds235352.mlab.com:35352/cookbook'
+=======
+app = Flask(__name__)
+app.config["MONGO_DBNAME"] = 'task_manager'
+app.config["MONGO_URI"] = 'mongodb://admin:admin@ds123926.mlab.com:23926/task_manager'
+>>>>>>> fb6dcd016d73d815a8b579b874e07680df2cd7c1
 
 mongo = PyMongo(app)
 
 @app.route('/')
+<<<<<<< HEAD
 @app.route('/add_recipe')
 def add_recipe():
     return render_template('addrecipe.html',
@@ -99,3 +106,21 @@ if __name__ == '__main__':
     app.run(host='0.0.0.0',
         port=int(os.environ.get('PORT',5000 )),
         debug=False)
+=======
+@app.route('/get_tasks')
+def get_tasks():
+    return render_template("tasks.html", 
+    tasks=mongo.db.tasks.find())
+    
+
+
+
+# @app.route('/')
+# def hello():
+#     return "Hello World ...again"
+    
+if __name__ == '__main__':
+    app.run(host=os.environ.get('IP'),
+        port=int(os.environ.get('PORT')),
+        debug=True)
+>>>>>>> fb6dcd016d73d815a8b579b874e07680df2cd7c1

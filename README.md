@@ -31,7 +31,7 @@ Bright and bold colours aim is to standout and be inviting to website users like
 
 
 
-![Mockup - Mobile](https://github.com/vmgwembere/fine-dining-recipes/blob/master/static/images/20190217_153856.jpg)
+![Mockup - Mobile](https://github.com/vmgwembere/fine-dining-recipes/blob/master/static/images/20190217_153902.jpg)
 
 
 ## Features

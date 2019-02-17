@@ -24,7 +24,8 @@ Bright and bold colours
 =======
 Bright and bold colours aim is to standout and be inviting to website users like the recipes.
 >>>>>>> fb6dcd016d73d815a8b579b874e07680df2cd7c1
-
+## Wireframes and Mockups
+https://github.com/vmgwembere/fine-dining-recipes/blob/master/static/images/20190217_153856.jpg
 ## Features
 Navbar
 

@@ -58,7 +58,7 @@ Title: New Category Inputs: name Buttons: add category
 
 - 
 ## Technologies Used
-<<<<<<< HEAD
+
 HTML5 
 CSS3 
 Materialize
